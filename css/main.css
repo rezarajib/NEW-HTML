@@ -1,0 +1,43 @@
+body{
+    background-color: skyblue
+}
+
+/* label{
+    display: block;
+    margin-bottom: 10px;
+
+} */
+
+td,th{
+    border: 1px solid;
+    padding: 5px 10px;
+    /* border-collapse: collapse; */
+}
+table{
+    border-collapse: collapse;
+}
+
+/* th{
+    color: red;
+    border: 1px solid gray;
+} */
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 10px ;
+}
+
+nav li a:hover{
+    color: red;
+    padding: 0 5px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
